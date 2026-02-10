@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 :root {
   --pale-blue: hsl(225, 100%, 94%);
   --bright-blue: hsl(245, 75%, 52%);
@@ -120,4 +121,128 @@ h1 {
 
 .secondary:hover {
   color: var(--dark-blue);
+=======
+:root {
+  --pale-blue: hsl(225, 100%, 94%);
+  --bright-blue: hsl(245, 75%, 52%);
+  --very-pale-blue: hsl(225, 100%, 98%);
+  --desaturated-blue: hsl(224, 23%, 55%);
+  --dark-blue: hsl(223, 47%, 23%);
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Red Hat Display', sans-serif;
+}
+
+body {
+  min-height: 100vh;
+  background: var(--pale-blue) url("images/pattern-background-desktop.svg") no-repeat;
+  background-size: contain;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.container {
+  padding: 1rem;
+}
+
+.card {
+  background: white;
+  border-radius: 20px;
+  overflow: hidden;
+  max-width: 400px;
+  text-align: center;
+  box-shadow: 0 20px 30px rgba(0, 0, 0, 0.1);
+}
+
+.hero-img {
+  width: 100%;
+}
+
+.card-content {
+  padding: 2rem;
+}
+
+h1 {
+  color: var(--dark-blue);
+  font-weight: 900;
+  margin-bottom: 1rem;
+}
+
+.description {
+  color: var(--desaturated-blue);
+  line-height: 1.6;
+  margin-bottom: 1.5rem;
+}
+
+.plan {
+  background: var(--very-pale-blue);
+  border-radius: 12px;
+  padding: 1rem;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 1.5rem;
+}
+
+.plan-left {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+}
+
+.plan h2 {
+  font-size: 1rem;
+  font-weight: 900;
+  color: var(--dark-blue);
+}
+
+.plan span {
+  color: var(--desaturated-blue);
+  font-size: 0.9rem;
+}
+
+.change {
+  color: var(--bright-blue);
+  font-weight: 700;
+}
+
+.change:hover {
+  text-decoration: none;
+  opacity: 0.7;
+}
+
+.btn {
+  width: 100%;
+  padding: 1rem;
+  border: none;
+  border-radius: 12px;
+  font-size: 1rem;
+  font-weight: 700;
+  cursor: pointer;
+}
+
+.primary {
+  background: var(--bright-blue);
+  color: white;
+  box-shadow: 0 15px 20px rgba(56, 41, 224, 0.3);
+  margin-bottom: 1rem;
+}
+
+.primary:hover {
+  opacity: 0.8;
+}
+
+.secondary {
+  background: none;
+  color: var(--desaturated-blue);
+}
+
+.secondary:hover {
+  color: var(--dark-blue);
+>>>>>>> cb625c9699a1e71828c8aff6334eeee65c102e03
 }
