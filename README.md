@@ -53,4 +53,3 @@ The project focuses on **mobile-first responsive design**, semantic HTML, and **
 1. Clone the repository:
 ```bash
 git clone https://github.com/MohamedEyara/order-summary-card.git
->>>>>>> cb625c9699a1e71828c8aff6334eeee65c102e03
